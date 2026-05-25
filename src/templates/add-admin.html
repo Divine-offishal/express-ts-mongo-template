@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome as Admin - TrackWeNg</title>
+  </head>
+  <body style="margin: 0; padding: 0; background-color: #f4f4f4; font-family: Arial, sans-serif">
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+      <tr>
+        <td align="center" style="padding: 20px 0; background-color: #eaf6ef">
+          <table
+            cellpadding="0"
+            cellspacing="0"
+            border="0"
+            width="600"
+            style="background-color: #ffffff; border-radius: 8px; overflow: hidden"
+          >
+            <!-- Header -->
+            <tr>
+              <td
+                align="center"
+                style="
+                  padding: 20px;
+                  background-color: #0f503f;
+                  color: #ffffff;
+                  font-size: 24px;
+                  font-weight: bold;
+                "
+              >
+                TrackWeNg
+              </td>
+            </tr>
+
+            <!-- Body -->
+            <tr>
+              <td style="padding: 30px; color: #333333; font-size: 16px; line-height: 1.6">
+                <p style="margin: 0 0 15px">Hi {{email}},</p>
+
+                <p style="margin: 0 0 15px">
+                  You’ve been added as an <strong>Admin</strong> on <strong>TrackWeNg</strong> by the Super Admin.
+                  Your login credentials have been set up for you as follows:
+                </p>
+
+                <ul style="margin: 15px 0 25px; padding-left: 20px;">
+                  <li><strong>Email:</strong> {{email}}</li>
+                  <li><strong>Password:</strong> {{password}}</li>
+                </ul>
+
+                <p style="margin: 0 0 15px">
+                  Please click the button below to log in to your admin dashboard and get started:
+                </p>
+
+                <!-- Button -->
+                <table
+                  cellpadding="0"
+                  cellspacing="0"
+                  border="0"
+                  align="center"
+                  style="margin: 20px auto"
+                >
+                  <tr>
+                    <td
+                      align="center"
+                      style="
+                        background-color: #0f503f;
+                        color: #ffffff;
+                        padding: 12px 30px;
+                        font-size: 16px;
+                        font-weight: bold;
+                        border-radius: 4px;
+                      "
+                    >
+                      <a
+                        href="https://trackweng-admin-v2.vercel.app/auth/login"
+                        style="color: #ffffff; text-decoration: none;"
+                      >
+                        Login to TrackWeNg Admin
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+
+                <p style="margin: 0 0 15px">
+                  Once logged in, you can change your password under your account settings for better security.
+                </p>
+
+                <p style="margin: 0">Welcome aboard,<br />The TrackWeNg Team</p>
+              </td>
+            </tr>
+
+            <!-- Footer -->
+            <tr>
+              <td
+                align="center"
+                style="padding: 20px; font-size: 12px; color: #888888; background-color: #eaf6ef"
+              >
+                © {{year}} TrackWeNg. All rights reserved.
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
+
